@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontakt</title>
+</head>
+<body>
+  <nav>
+    <div class="meni container">
+      <ul>
+        <li><a href="index.html">Pocetna</a></li>
+        <li><a href="onama.html">O nama</a></li>
+        <li><a href="vrsteautomobila.html">Vrste Pogona Automobila</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li> <!-- Novi link ka kontakt stranici -->
+      </ul>
+    </div>
+  </nav>
+
+  <section id="contact" class="container">
+    <h1>Kontaktirajte nas</h1>
+    <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+      <label for="name">Ime:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="message">Poruka:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Pošalji</button>
+    </form>
+  </section>
+</body>
+</html>
